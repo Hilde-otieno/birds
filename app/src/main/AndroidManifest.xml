@@ -13,6 +13,18 @@
         android:theme="@style/Theme.Birds"
         tools:targetApi="31">
         <activity
+            android:name=".FifthBirdActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FourthBirdActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ThirdBirdActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SecondBirdActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
